@@ -7,8 +7,6 @@ import Sections from 'components/Sections';
 
 import styles from './Feedback.module.css';
 
-const options = ['good', 'neutral', 'bad'];
-
 class Feedback extends Component {
   state = {
     good: 0,
